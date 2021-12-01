@@ -42,8 +42,7 @@ st.set_page_config(page_title='TTS Tester', page_icon = favicon, layout = 'wide'
 st.header("TTS IBM testing")
 
 
-apikey = st.text_input('Ingresa tu apikey', value="", type="password")
-url = st.text_input('y tu url', value="", type="password")
+
 
 
 voces = ('es-US_SofiaV3Voice', 'es-LA_SofiaV3Voice', 'es-ES_EnriqueV3Voice', 'es-ES_LauraV3Voice')
