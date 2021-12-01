@@ -56,13 +56,7 @@ text = st.text_area("Texto a convertir en voz (soporta SSML)")
 
 if st.button('Generar audio'):
     
-    if 0 = 0:
     
-        st.warning("Por favor ingresa tu apikey o url para autentificarme y poder usar el modelo tts")
-        st.stop()
-    
-    
-    with st.spinner('Haciendo autentificación..'):
         
         try:
             
